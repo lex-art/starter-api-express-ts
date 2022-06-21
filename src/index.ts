@@ -1,13 +1,6 @@
-import express, { Response} from 'express';
-const app = express();
-app.use(express.json()); // middleware que transforma un body a un json
+import app from "./app";
 
-const PORT = process.env.PORT || 3000;
-
-app.get('/', (_, res: Response) => {
-    res.send('Hello world');
-});
-
-app.listen(PORT, ()=>{
+const PORT = process.env.PORT || 5000;
+app.listen( PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
