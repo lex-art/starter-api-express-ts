@@ -1,11 +1,11 @@
-import type { Knex } from "knex";
+import type { Knex } from 'knex'
 // Update with your config settings.
 
 export const config: { [key: string]: Knex.Config } = {
   // Update with your config settings.
   development: {
     client: 'postgresql',
-    connection: "mpostgresqlysql://for-tests:RY2alo08@HQl@postgresql-for-tests.alwaysdata.net/for-tests_pg",
+    connection: 'mpostgresqlysql://for-tests:RY2alo08@HQl@postgresql-for-tests.alwaysdata.net/for-tests_pg',
     pool: {
       min: 2,
       max: 10
@@ -49,7 +49,6 @@ export const config: { [key: string]: Knex.Config } = {
       directory: './seeds/prod'
     }
   }
-};
+}
 
-
-
+/* module.exports = config */

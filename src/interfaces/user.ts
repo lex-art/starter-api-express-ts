@@ -1,11 +1,16 @@
-export  interface User {
-    user_name: string
-    first_name: string
-    last_name: string
-    email: string
-    su: string
-    password: string
-    is_active: boolean
-    created_at: Date
-    updated_at: Date
+
+export interface UserToken {
+    userName?: string;
+    fisrtName?: string;
+    lastName?: string;
+    email?: string;
+    role?: Array<string>;
+    iat?: number;
+    exp?: number
+  }
+export interface CheckUser {
+	error?: boolean | Error;
+	message?: string;
+	user?: UserToken;
+	accessToken?: string;
 }

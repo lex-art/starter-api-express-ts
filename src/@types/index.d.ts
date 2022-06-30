@@ -1,8 +1,7 @@
-import { Knex } from "knex";
-import { User } from "../interfaces/user";
+import KnexTables from './kenexTables'
+import CustomReuqest from './customRequest'
 
-declare module "knex/types/tables" {
-  interface Tables {
-    users: User;
-  }
+export {
+  KnexTables,
+  CustomReuqest
 }

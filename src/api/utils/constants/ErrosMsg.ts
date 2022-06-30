@@ -1,0 +1,16 @@
+export const ERROR_MSG ={
+  PASSVORD_INVALID: 'password invalid',
+  USER_NOT_FOUND: 'user not found',
+  PASSWORD_MISSING: 'password missing',
+  EMAIL_MISSING: 'email field requerid',
+  NOT_RESULT_FOUND: 'not result found',
+  TOKEN_EXPIRED: 'access denied, token expired or invalid',
+  MISSING_FIELD: 'missing fields',
+  FAIL_UPDATE_RESET_TOKEN: 'fail update token reset',
+  FAIL_CREATE_RESET_TOKEN: 'fail to create token reset',
+  TOKEN_EMAIL_REQUIRED: 'email and token field requerid',
+  ERROR_CHANGE_PSSW: 'error change password',
+  COMMIN_MSG_ERROR: 'an unexpected error has occurred',
+  MISSING_ACTUAL_PSSW: 'missing actual password',
+  ACTUAL_PSSW_INVALID: 'actual password invalid',
+}
